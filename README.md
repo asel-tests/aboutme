@@ -1,36 +1,83 @@
-Hi! 
-Welcome to my page. 
-Im mohamad ali jarkas, a guy.
+# Hi!  
+Welcome to my page.  
 
-This is where you can learn about my previous/current/future projects and interests.
+I'm **Mohamad Ali Jarkas**, a guy.  
 
+This is where you can learn about my previous, current, and future projects and interests.
 
-AI/ML:
-- researched different architectures for LLM classification tasks by lmsys. Suggested a new parallel bert architecture to increase context window and allow more input tokens.
+---
 
-Signal processing:
-- designed an AWGN codebase using cpp, allows simulation of different coding and decoding techniques, including polar codes. Supports multi threading. Uses cmake.
+## AI / ML
+- Researched different architectures for LLM classification tasks with **lmsys**.  
+- Suggested a new **parallel BERT architecture** to increase the context window and allow more input tokens.
 
-- other, previous internships:
-arkalumen: designed and implemneted a windows app using c# and the .net framework. Interpolates CCT values between a certain range using cubic splice interpolation. App uses os concepts such as mutexes.
-- heavily researched, designed, and implemented a PCB compliant with the usb type c pd standard that allows programming and debugging of a micronctorller through one port. Depending on the source, it either switches to DEBUG mode to program, during which the ICSP pins are connected to the USB bus, or regular usb 2.0 operation, which connects the D+, D-, gnd and src pins to the usb bus.
-- Debugged regular led controller pcbs and firemware.
-- Developed ESP32 firmare in C for BLIE communication, PWM signal generation to drive led strips, and ADC current sensing for feedback loops.
-- Conducted experiments top measure thermal efficiency of controllers and the effect of heat on capacitance degradation in ceramic capacitors sub 1206 footprint.
-- Represented arkalumen in communications with international partner companies
-- Hid the desktop of a colleague so well they couldnt find it for the whole day after they stole my car keys.
+---
 
-- Cisco Systems
-- was my first actual software dev internship. The amount of information I learned during those 4 months was invaluable. I guess thats what you get when youre surrounded by talented software devs and engineers who are willing to help you. Learned os concepts, linux signalling libraires, and syncrhonous and asynchronous callback functions.
-- Not sure what Im at liberty to disclose, but I spent my internship developing a feature for their cisco IOS-XE operating software. It was an overhaul of a previous critical real-time operation. The developed feature trimmed the existing codebase, and heavily increased the speed of the previous code. It basically trimmed the code down so that it relies on native linux libraries rather than custom ones. Set the basis for future work.
-- During this internship, I used C, bash, and python.
+## Signal Processing
+- Designed an **AWGN codebase in C++** to simulate different coding and decoding techniques, including polar codes.  
+  - Supports multithreading.  
+  - Uses CMake.  
 
-- Rianta solutions:
-- I interned there the semester before they got acquired by marvell, so I had to sign *alot* of paperwork. I mostly learned about the business side of engineering. Acquisitions, and transition periods. For technical work, I used system verilog and the uvm library to create a testbench using constrained-random stimulus. Used functional coverage. I also intergrated, debugged, and simulated an ethernet ip RTL wrapper. I think the most impoertant thing i took out of this internship was learning how to use vim. I now use nvim for my daily programming.
+---
 
-- MATE ROV:
-spent a few years on the kelpie mate rov team, was part of the original founding members. I was the electrical team lead at some point. Designed the original power distribution system for the ROV. Also wrote and implemented a PMBus library using i2c to communicate with the dc step down converter. Really learned how to read archaic documentation and the importance of good documentation for producted ready products.
+## Internships & Work
 
-uottawa research
-- Debugged esp32 controllers using BLE and LORA to communicate with each other. Learned how to fly a drone, designed experiments, created professional figures, co-published first paper
-- conducted a literature and commercial review of haptic jackets and technologies, created a proposal, designed a haptic jacket, implemented it, and soldered pwm motors. co-authored a publication that's yet to published. Used a nvidia jetson 
+### Arkalumen
+- Designed and implemented a **Windows app** in C# and .NET for CCT interpolation using cubic spline interpolation.  
+  - Implemented OS concepts such as mutexes.  
+- Designed and implemented a **USB Type-C PD compliant PCB** to allow programming and debugging of a microcontroller through one port.  
+  - Switched between DEBUG mode (ICSP pins connected to USB) and regular USB 2.0 operation.  
+- Debugged LED controller PCBs and firmware.  
+- Developed **ESP32 firmware** in C for:
+  - BLE communication.  
+  - PWM signal generation to drive LED strips.  
+  - ADC current sensing for feedback loops.  
+- Conducted experiments measuring:
+  - Thermal efficiency of controllers.  
+  - Effect of heat on capacitance degradation in ceramic capacitors (<1206 footprint).  
+- Represented Arkalumen in communications with international partner companies.  
+- Hid a colleague’s desktop so well they couldn’t find it for a whole day after they stole my car keys.  
+
+---
+
+### Cisco Systems
+- First actual **software development internship**.  
+- Learned OS concepts, Linux signaling libraries, synchronous and asynchronous callback functions.  
+- Developed a **feature for Cisco IOS-XE**:
+  - Overhauled a critical real-time operation.  
+  - Trimmed the existing codebase and increased speed significantly.  
+  - Migrated reliance from custom libraries to native Linux libraries.  
+  - Set the basis for future work.  
+- Technologies used: **C, Bash, Python**.  
+
+---
+
+### Rianta Solutions (before acquisition by Marvell)
+- Learned about the **business side of engineering**: acquisitions and transition periods.  
+- Technical work:  
+  - Used **SystemVerilog** and **UVM library** to create a testbench with constrained-random stimulus.  
+  - Applied **functional coverage**.  
+  - Integrated, debugged, and simulated an **Ethernet IP RTL wrapper**.  
+- Biggest takeaway: learned **Vim**, now use **Neovim** daily.  
+
+---
+
+### MATE ROV (Kelpie team)
+- Founding member, later **Electrical Team Lead**.  
+- Designed the original **power distribution system** for the ROV.  
+- Wrote and implemented a **PMBus library (I²C)** to communicate with a DC step-down converter.  
+- Learned the importance of **good documentation** for production-ready products.  
+
+---
+
+### University of Ottawa Research
+- Debugged **ESP32 controllers** using BLE and LoRa for communication.  
+- Learned to fly drones, designed experiments, created professional figures.  
+- Co-published first research paper.  
+- Conducted a **literature and commercial review** of haptic jackets.  
+- Designed and implemented a **haptic jacket prototype**:  
+  - Created proposal, soldered PWM motors.  
+  - Used an **NVIDIA Jetson** for control.  
+  - Co-authored a second publication (pending).  
+
+---
