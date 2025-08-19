@@ -1,3 +1,6 @@
 title: "Mohamad Ali Jarkas"
 description: "Resume and Projects"
-theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+# no theme on purpose (layout: null in index.md gives us a clean canvas)
