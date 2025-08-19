@@ -10,13 +10,14 @@ This is where you can learn about my previous, current, and future projects and 
 ## AI / ML
 - Researched different architectures for LLM classification tasks with **lmsys**.  
 - Suggested a new **parallel BERT architecture** to increase the context window and allow more input tokens.
+- Technologies used: Pytorch, CUDA, Transformers library by Hugging Face, oLlama, Python.
 
 ---
 
 ## Signal Processing
-- Designed an **AWGN codebase in C++** to simulate different coding and decoding techniques, including polar codes.  
-  - Supports multithreading.  
-  - Uses CMake.  
+- Designed and implemented an **AWGN codebase in C++** to simulate different coding and decoding techniques, including polar codes. Code was written using c++ with goals of proper abstraction, organization, and minimization of technical debt.
+- Biggest codebase ive written (3500 LOC so far).
+- Technologies used: c++, cmake, make, neovim, ubuntu, WSL2, gitea & git
 
 ---
 
@@ -36,7 +37,7 @@ This is where you can learn about my previous, current, and future projects and 
   - Thermal efficiency of controllers.  
   - Effect of heat on capacitance degradation in ceramic capacitors (<1206 footprint).  
 - Represented Arkalumen in communications with international partner companies.  
-- Hid a colleague’s desktop so well they couldn’t find it for a whole day after they stole my car keys.  
+- Technologies used: C#, .NET, C, Python, KiCad, oscilloscope, multimeter, soldering iron, hot air solder, thermal camera, VS/code
 
 ---
 
@@ -48,7 +49,7 @@ This is where you can learn about my previous, current, and future projects and 
   - Trimmed the existing codebase and increased speed significantly.  
   - Migrated reliance from custom libraries to native Linux libraries.  
   - Set the basis for future work.  
-- Technologies used: **C, Bash, Python**.  
+- Technologies used: C, Bash, Python, VsCode, Git
 
 ---
 
@@ -58,7 +59,7 @@ This is where you can learn about my previous, current, and future projects and 
   - Used **SystemVerilog** and **UVM library** to create a testbench with constrained-random stimulus.  
   - Applied **functional coverage**.  
   - Integrated, debugged, and simulated an **Ethernet IP RTL wrapper**.  
-- Biggest takeaway: learned **Vim**, now use **Neovim** daily.  
+- Technologies: SystemVerilog, UVM, Bash, Vim
 
 ---
 
@@ -66,8 +67,8 @@ This is where you can learn about my previous, current, and future projects and 
 - Founding member, later **Electrical Team Lead**.  
 - Designed the original **power distribution system** for the ROV.  
 - Wrote and implemented a **PMBus library (I²C)** to communicate with a DC step-down converter.  
-- Learned the importance of **good documentation** for production-ready products.  
-
+- Learned the importance of **good documentation** for production-ready products.
+- Technologies used: Arduino IDE, C, Espressif VsCode extension, KiCad, Fusion360, power tools
 ---
 
 ### University of Ottawa Research
@@ -78,6 +79,7 @@ This is where you can learn about my previous, current, and future projects and 
 - Designed and implemented a **haptic jacket prototype**:  
   - Created proposal, soldered PWM motors.  
   - Used an **NVIDIA Jetson** for control.  
-  - Co-authored a second publication (pending).  
+  - Co-authored a second publication (pending).
+- Technologies used: Arduino IDE, C, Java, Inkscape
 
 ---
